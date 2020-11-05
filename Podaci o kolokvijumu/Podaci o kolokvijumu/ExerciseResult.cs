@@ -18,5 +18,12 @@ namespace Podaci_o_kolokvijumu
         public string StudentName { get; set; }
         public string StudentIndex { get; set; }
         public int StudentPoints { get; set; }
+
+        public override string ToString()
+        {
+            return id + " " + StudentName + " " + StudentIndex + " " + StudentPoints;
+        }
     }
+
+    
 }
